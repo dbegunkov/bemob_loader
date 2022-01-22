@@ -1,0 +1,48 @@
+{
+  "workspaceId": "c6bee471-aa2e-11ea-9b0c-128f4dd6144f",
+  "trafficSourceId": "b27a3c3e-7aad-4eba-a94e-684830626beb",
+  "name": "IM_2698_VOTTAK_ADULT_TESTAD",
+  "countryId": 0,
+  "trackingDomainId": null,
+  "redirectDomainId": null,
+  "trafficLossPercent": 0,
+  "postbackPercent": 0,
+  "redirectMode": "302",
+  "costValue": "0.036",
+  "costModel": "cpa",
+  "currencyId": "USD",
+  "destinationType": "flowInline",
+  "flowId": null,
+  "destinationUrl": null,
+  "status": "active",
+  "flowInline": {
+    "rules": [
+      {
+        "name": "Default",
+        "default": true,
+        "conditions": {},
+        "status": "active",
+        "paths": [
+          {
+            "name": "Path 1",
+            "weight": 100,
+            "status": "active",
+            "redirectMode": "302",
+            "redirectDomain": "",
+            "directLinking": false,
+            "landings": [],
+            "offers": [
+              {
+                "id": "2f889277-68f7-4916-a1b5-04c2f25b4778",
+                "weight": 100
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "enableSixthSense": true,
+  "setCustomUniqueness": true,
+  "customUniquenessPeriod": 0
+}
